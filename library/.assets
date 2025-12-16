@@ -1,0 +1,27 @@
+{
+    "version": "1.0.1",
+    "data": {
+        "paths": [
+            "UI",
+            "Scene",
+            "Scene\\HomePage.scene",
+            "Font",
+            "Font\\fusion-pixel-12px-monospaced.ttf",
+            "resources",
+            "Prefabs",
+            "Script",
+            "UI\\Characters",
+            "UI\\Enemies",
+            "UI\\homePage.png",
+            "UI\\Characters\\Soldier",
+            "UI\\Characters\\witch",
+            "UI\\Enemies\\bat.png",
+            "UI\\Enemies\\cow.png",
+            "UI\\Enemies\\goblin.png",
+            "UI\\Characters\\Soldier\\battle.png",
+            "UI\\Characters\\Soldier\\stand.png",
+            "UI\\Characters\\witch\\battle.png",
+            "UI\\Characters\\witch\\stand.png"
+        ]
+    }
+}

@@ -1,0 +1,146 @@
+{
+  "version": "1.0.1",
+  "map": {
+    "UI.meta": {
+      "time": 1765850157013.5005
+    },
+    "UI": {
+      "time": 1765855980437.7773,
+      "uuid": "320eba06-51db-4ed0-9828-b29906f0eeee"
+    },
+    "Scene.meta": {
+      "time": 1765850167717.17
+    },
+    "Scene": {
+      "time": 1765850178716.2861,
+      "uuid": "f6fe2075-e0d8-45fb-b188-82a4ecdd3213"
+    },
+    "Scene\\HomePage.scene.meta": {
+      "time": 1765850178720.691
+    },
+    "Scene\\HomePage.scene": {
+      "time": 1765850394314.7256,
+      "uuid": "70fe6343-d169-4295-b784-9262a7010cef"
+    },
+    "Font.meta": {
+      "time": 1765850313714.77
+    },
+    "Font": {
+      "time": 1765850331571.4492,
+      "uuid": "1abd6595-1a27-4e1a-b4ec-51954ebab9a9"
+    },
+    "Font\\fusion-pixel-12px-monospaced.ttf.meta": {
+      "time": 1765850331578.4507
+    },
+    "Font\\fusion-pixel-12px-monospaced.ttf": {
+      "time": 1765850329331.5452,
+      "uuid": "7fb2e180-cc11-4ceb-81b9-ea768e08b842"
+    },
+    "resources.meta": {
+      "time": 1765850368834.7637
+    },
+    "resources": {
+      "time": 1765850352138.9363,
+      "uuid": "65362dfe-5ce7-41c1-8ca8-edf483972671"
+    },
+    "Prefabs.meta": {
+      "time": 1765850381137.5012
+    },
+    "Prefabs": {
+      "time": 1765850381133.5017,
+      "uuid": "a6449f83-6a92-43e9-b35a-2328884860fc"
+    },
+    "Script.meta": {
+      "time": 1765850429990.7896
+    },
+    "Script": {
+      "time": 1765850429986.7922,
+      "uuid": "c3699dde-5663-4131-b996-dbc3d5558469"
+    },
+    "UI\\Characters.meta": {
+      "time": 1765855980449.7776
+    },
+    "UI\\Enemies.meta": {
+      "time": 1765855980450.7786
+    },
+    "UI\\homePage.png.meta": {
+      "time": 1765855980619.9214
+    },
+    "UI\\Characters\\Soldier.meta": {
+      "time": 1765855980451.777
+    },
+    "UI\\Characters\\witch.meta": {
+      "time": 1765855980451.777
+    },
+    "UI\\Enemies\\bat.png.meta": {
+      "time": 1765855980570.9216
+    },
+    "UI\\Enemies\\cow.png.meta": {
+      "time": 1765855980575.922
+    },
+    "UI\\Enemies\\goblin.png.meta": {
+      "time": 1765855980572.9216
+    },
+    "UI\\Characters\\Soldier\\battle.png.meta": {
+      "time": 1765855980574.9214
+    },
+    "UI\\Characters\\Soldier\\stand.png.meta": {
+      "time": 1765855980630.922
+    },
+    "UI\\Characters\\witch\\battle.png.meta": {
+      "time": 1765855980631.9219
+    },
+    "UI\\Characters\\witch\\stand.png.meta": {
+      "time": 1765855980635.015
+    },
+    "UI\\Characters": {
+      "time": 1765855980438.777,
+      "uuid": "87baeefe-acbd-4c24-8dee-49d2219d3c83"
+    },
+    "UI\\Enemies": {
+      "time": 1765855980440.777,
+      "uuid": "a8872bb9-30f2-44d7-809b-2ee0a8ad9d98"
+    },
+    "UI\\Characters\\Soldier": {
+      "time": 1765855980442.7769,
+      "uuid": "ba5c7b93-2078-449c-b21c-de7b7a3ef564"
+    },
+    "UI\\Characters\\witch": {
+      "time": 1765855980443.777,
+      "uuid": "b9048be1-a026-4e3c-bb80-3e5bcaae229a"
+    },
+    "UI\\Enemies\\bat.png": {
+      "time": 1765855584783.6064,
+      "uuid": "3d83782e-4200-4253-8201-7dbf565a31b7"
+    },
+    "UI\\Enemies\\goblin.png": {
+      "time": 1765855697431.291,
+      "uuid": "c7a6accd-4c1c-48dc-ae5d-85cfbc802a71"
+    },
+    "UI\\Characters\\Soldier\\battle.png": {
+      "time": 1765854562098.6765,
+      "uuid": "2d0c3282-86e3-4456-bee0-66e901d3b7e8"
+    },
+    "UI\\Enemies\\cow.png": {
+      "time": 1765855492595.441,
+      "uuid": "93527823-e9a5-4993-bd26-7b33e27bb7b3"
+    },
+    "UI\\homePage.png": {
+      "time": 1765851290570.921,
+      "uuid": "3a526b8e-2f39-47ef-9f92-f6d14ce1acaf"
+    },
+    "UI\\Characters\\Soldier\\stand.png": {
+      "time": 1765851901109.6091,
+      "uuid": "3d4e0d20-e6e2-4275-be96-7f649f8d1290"
+    },
+    "UI\\Characters\\witch\\battle.png": {
+      "time": 1765855078308.8376,
+      "uuid": "c0e22c96-5877-4861-bab9-3d752cd10a11"
+    },
+    "UI\\Characters\\witch\\stand.png": {
+      "time": 1765851414525.1829,
+      "uuid": "743a47b6-adb9-4f48-9022-21053159dbcd"
+    }
+  },
+  "missing": {}
+}

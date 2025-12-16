@@ -1,0 +1,279 @@
+{
+  "320eba06-51db-4ed0-9828-b29906f0eeee": {
+    "url": "db://assets/UI",
+    "value": {},
+    "versionCode": 1
+  },
+  "f6fe2075-e0d8-45fb-b188-82a4ecdd3213": {
+    "url": "db://assets/Scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "70fe6343-d169-4295-b784-9262a7010cef": {
+    "url": "db://assets/Scene/HomePage.scene",
+    "value": {
+      "depends": [
+        "70fe6343-d169-4295-b784-9262a7010cef"
+      ],
+      "dependScripts": []
+    },
+    "versionCode": 1
+  },
+  "1abd6595-1a27-4e1a-b4ec-51954ebab9a9": {
+    "url": "db://assets/Font",
+    "value": {},
+    "versionCode": 1
+  },
+  "7fb2e180-cc11-4ceb-81b9-ea768e08b842": {
+    "url": "db://assets/Font/fusion-pixel-12px-monospaced.ttf",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "80aa4f7a-1db5-4540-8ca8-61b03f6a0c07": {
+    "url": "db://assets/Script.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "65362dfe-5ce7-41c1-8ca8-edf483972671": {
+    "url": "db://assets/resources",
+    "value": {},
+    "versionCode": 1
+  },
+  "a6449f83-6a92-43e9-b35a-2328884860fc": {
+    "url": "db://assets/Prefabs",
+    "value": {},
+    "versionCode": 1
+  },
+  "06e6c569-9ae7-49d0-8ca8-10cf26a04669": {
+    "url": "db://assets/TiledMap",
+    "value": {},
+    "versionCode": 1
+  },
+  "c3699dde-5663-4131-b996-dbc3d5558469": {
+    "url": "db://assets/Script",
+    "value": {},
+    "versionCode": 1
+  },
+  "3a526b8e-2f39-47ef-9f92-f6d14ce1acaf": {
+    "url": "db://assets/UI/homePage.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "87baeefe-acbd-4c24-8dee-49d2219d3c83": {
+    "url": "db://assets/UI/Characters",
+    "value": {},
+    "versionCode": 1
+  },
+  "a8872bb9-30f2-44d7-809b-2ee0a8ad9d98": {
+    "url": "db://assets/UI/Enemies",
+    "value": {},
+    "versionCode": 1
+  },
+  "ba5c7b93-2078-449c-b21c-de7b7a3ef564": {
+    "url": "db://assets/UI/Characters/Soldier",
+    "value": {},
+    "versionCode": 1
+  },
+  "b9048be1-a026-4e3c-bb80-3e5bcaae229a": {
+    "url": "db://assets/UI/Characters/witch",
+    "value": {},
+    "versionCode": 1
+  },
+  "3d83782e-4200-4253-8201-7dbf565a31b7": {
+    "url": "db://assets/UI/Enemies/bat.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "93527823-e9a5-4993-bd26-7b33e27bb7b3": {
+    "url": "db://assets/UI/Enemies/cow.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c7a6accd-4c1c-48dc-ae5d-85cfbc802a71": {
+    "url": "db://assets/UI/Enemies/goblin.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2d0c3282-86e3-4456-bee0-66e901d3b7e8": {
+    "url": "db://assets/UI/Characters/Soldier/battle.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2d0c3282-86e3-4456-bee0-66e901d3b7e8@6c48a": {
+    "url": "db://assets/UI/Characters/Soldier/battle.png@6c48a",
+    "value": {
+      "depends": [
+        "2d0c3282-86e3-4456-bee0-66e901d3b7e8"
+      ]
+    },
+    "versionCode": 1
+  },
+  "93527823-e9a5-4993-bd26-7b33e27bb7b3@6c48a": {
+    "url": "db://assets/UI/Enemies/cow.png@6c48a",
+    "value": {
+      "depends": [
+        "93527823-e9a5-4993-bd26-7b33e27bb7b3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c7a6accd-4c1c-48dc-ae5d-85cfbc802a71@6c48a": {
+    "url": "db://assets/UI/Enemies/goblin.png@6c48a",
+    "value": {
+      "depends": [
+        "c7a6accd-4c1c-48dc-ae5d-85cfbc802a71"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3d83782e-4200-4253-8201-7dbf565a31b7@6c48a": {
+    "url": "db://assets/UI/Enemies/bat.png@6c48a",
+    "value": {
+      "depends": [
+        "3d83782e-4200-4253-8201-7dbf565a31b7"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3a526b8e-2f39-47ef-9f92-f6d14ce1acaf@6c48a": {
+    "url": "db://assets/UI/homePage.png@6c48a",
+    "value": {
+      "depends": [
+        "3a526b8e-2f39-47ef-9f92-f6d14ce1acaf"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3d83782e-4200-4253-8201-7dbf565a31b7@f9941": {
+    "url": "db://assets/UI/Enemies/bat.png@f9941",
+    "value": {
+      "depends": [
+        "3d83782e-4200-4253-8201-7dbf565a31b7@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3d4e0d20-e6e2-4275-be96-7f649f8d1290": {
+    "url": "db://assets/UI/Characters/Soldier/stand.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c7a6accd-4c1c-48dc-ae5d-85cfbc802a71@f9941": {
+    "url": "db://assets/UI/Enemies/goblin.png@f9941",
+    "value": {
+      "depends": [
+        "c7a6accd-4c1c-48dc-ae5d-85cfbc802a71@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c0e22c96-5877-4861-bab9-3d752cd10a11": {
+    "url": "db://assets/UI/Characters/witch/battle.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2d0c3282-86e3-4456-bee0-66e901d3b7e8@f9941": {
+    "url": "db://assets/UI/Characters/Soldier/battle.png@f9941",
+    "value": {
+      "depends": [
+        "2d0c3282-86e3-4456-bee0-66e901d3b7e8@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "93527823-e9a5-4993-bd26-7b33e27bb7b3@f9941": {
+    "url": "db://assets/UI/Enemies/cow.png@f9941",
+    "value": {
+      "depends": [
+        "93527823-e9a5-4993-bd26-7b33e27bb7b3@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "743a47b6-adb9-4f48-9022-21053159dbcd": {
+    "url": "db://assets/UI/Characters/witch/stand.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "3a526b8e-2f39-47ef-9f92-f6d14ce1acaf@f9941": {
+    "url": "db://assets/UI/homePage.png@f9941",
+    "value": {
+      "depends": [
+        "3a526b8e-2f39-47ef-9f92-f6d14ce1acaf@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c0e22c96-5877-4861-bab9-3d752cd10a11@6c48a": {
+    "url": "db://assets/UI/Characters/witch/battle.png@6c48a",
+    "value": {
+      "depends": [
+        "c0e22c96-5877-4861-bab9-3d752cd10a11"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3d4e0d20-e6e2-4275-be96-7f649f8d1290@6c48a": {
+    "url": "db://assets/UI/Characters/Soldier/stand.png@6c48a",
+    "value": {
+      "depends": [
+        "3d4e0d20-e6e2-4275-be96-7f649f8d1290"
+      ]
+    },
+    "versionCode": 1
+  },
+  "743a47b6-adb9-4f48-9022-21053159dbcd@6c48a": {
+    "url": "db://assets/UI/Characters/witch/stand.png@6c48a",
+    "value": {
+      "depends": [
+        "743a47b6-adb9-4f48-9022-21053159dbcd"
+      ]
+    },
+    "versionCode": 1
+  },
+  "3d4e0d20-e6e2-4275-be96-7f649f8d1290@f9941": {
+    "url": "db://assets/UI/Characters/Soldier/stand.png@f9941",
+    "value": {
+      "depends": [
+        "3d4e0d20-e6e2-4275-be96-7f649f8d1290@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c0e22c96-5877-4861-bab9-3d752cd10a11@f9941": {
+    "url": "db://assets/UI/Characters/witch/battle.png@f9941",
+    "value": {
+      "depends": [
+        "c0e22c96-5877-4861-bab9-3d752cd10a11@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "743a47b6-adb9-4f48-9022-21053159dbcd@f9941": {
+    "url": "db://assets/UI/Characters/witch/stand.png@f9941",
+    "value": {
+      "depends": [
+        "743a47b6-adb9-4f48-9022-21053159dbcd@6c48a"
+      ]
+    },
+    "versionCode": 1
+  }
+}
