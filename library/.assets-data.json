@@ -252,5 +252,316 @@
       ]
     },
     "versionCode": 1
+  },
+  "defbb61c-8590-4001-8674-84a09b2585b9": {
+    "url": "db://assets/Font/fusion-pixel-12px-monospaced.ttf",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ad296153-6f64-442a-8223-ec070299b01f": {
+    "url": "db://assets/Font",
+    "value": {},
+    "versionCode": 1
+  },
+  "f3994543-8225-4135-9b2d-19f4185ebadb": {
+    "url": "db://assets/UI",
+    "value": {},
+    "versionCode": 1
+  },
+  "e02e599d-ee30-47e1-b573-95cbb19226a3": {
+    "url": "db://assets/UI/Characters",
+    "value": {},
+    "versionCode": 1
+  },
+  "84e65db7-7348-45d8-bbfe-f88988e4fe3a": {
+    "url": "db://assets/UI/Enemies",
+    "value": {},
+    "versionCode": 1
+  },
+  "62b75f40-ac09-49f6-b903-b45d5d7afcb1": {
+    "url": "db://assets/UI/homePage.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f1e21c98-932f-4a8d-86e5-49e3258c1fa5": {
+    "url": "db://assets/UI/Characters/soldier",
+    "value": {},
+    "versionCode": 1
+  },
+  "57d8d9b4-8284-4b5e-a682-20096356ecd2": {
+    "url": "db://assets/UI/Characters/witch",
+    "value": {},
+    "versionCode": 1
+  },
+  "ae65030d-9426-43ed-a01e-020e5b462f02": {
+    "url": "db://assets/UI/Enemies/bat.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c73b0087-928d-4a4a-ba54-97e96e76808d": {
+    "url": "db://assets/UI/Enemies/boss.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "5c7ab389-d8ae-47bb-b070-ab0cd3154d2b": {
+    "url": "db://assets/UI/Enemies/skull.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "57fe0d8b-08b2-421b-b136-581628a3024e": {
+    "url": "db://assets/UI/Enemies/生成像素怪物素材 (3).png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "62b75f40-ac09-49f6-b903-b45d5d7afcb1@6c48a": {
+    "url": "db://assets/UI/homePage.png@6c48a",
+    "value": {
+      "depends": [
+        "62b75f40-ac09-49f6-b903-b45d5d7afcb1"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5c7ab389-d8ae-47bb-b070-ab0cd3154d2b@6c48a": {
+    "url": "db://assets/UI/Enemies/skull.png@6c48a",
+    "value": {
+      "depends": [
+        "5c7ab389-d8ae-47bb-b070-ab0cd3154d2b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ae65030d-9426-43ed-a01e-020e5b462f02@6c48a": {
+    "url": "db://assets/UI/Enemies/bat.png@6c48a",
+    "value": {
+      "depends": [
+        "ae65030d-9426-43ed-a01e-020e5b462f02"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5c7ab389-d8ae-47bb-b070-ab0cd3154d2b@f9941": {
+    "url": "db://assets/UI/Enemies/skull.png@f9941",
+    "value": {
+      "depends": [
+        "5c7ab389-d8ae-47bb-b070-ab0cd3154d2b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ef629c0c-5762-4eea-8db2-e38d9626a539": {
+    "url": "db://assets/UI/Enemies/生成像素怪物素材 (4).png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "57fe0d8b-08b2-421b-b136-581628a3024e@6c48a": {
+    "url": "db://assets/UI/Enemies/生成像素怪物素材 (3).png@6c48a",
+    "value": {
+      "depends": [
+        "57fe0d8b-08b2-421b-b136-581628a3024e"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ae65030d-9426-43ed-a01e-020e5b462f02@f9941": {
+    "url": "db://assets/UI/Enemies/bat.png@f9941",
+    "value": {
+      "depends": [
+        "ae65030d-9426-43ed-a01e-020e5b462f02@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e3253b4f-507f-4562-b695-f386baa7b8c1": {
+    "url": "db://assets/UI/Characters/soldier/battle.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c73b0087-928d-4a4a-ba54-97e96e76808d@6c48a": {
+    "url": "db://assets/UI/Enemies/boss.png@6c48a",
+    "value": {
+      "depends": [
+        "c73b0087-928d-4a4a-ba54-97e96e76808d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "62b75f40-ac09-49f6-b903-b45d5d7afcb1@f9941": {
+    "url": "db://assets/UI/homePage.png@f9941",
+    "value": {
+      "depends": [
+        "62b75f40-ac09-49f6-b903-b45d5d7afcb1@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1df579a6-41c6-47c5-b85d-1cb3ec487fa3": {
+    "url": "db://assets/UI/Characters/soldier/stand.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c73b0087-928d-4a4a-ba54-97e96e76808d@f9941": {
+    "url": "db://assets/UI/Enemies/boss.png@f9941",
+    "value": {
+      "depends": [
+        "c73b0087-928d-4a4a-ba54-97e96e76808d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1f759984-5cd5-4981-9db8-ca96a30debd0": {
+    "url": "db://assets/UI/Characters/witch/battle.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "ef629c0c-5762-4eea-8db2-e38d9626a539@6c48a": {
+    "url": "db://assets/UI/Enemies/生成像素怪物素材 (4).png@6c48a",
+    "value": {
+      "depends": [
+        "ef629c0c-5762-4eea-8db2-e38d9626a539"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e3253b4f-507f-4562-b695-f386baa7b8c1@6c48a": {
+    "url": "db://assets/UI/Characters/soldier/battle.png@6c48a",
+    "value": {
+      "depends": [
+        "e3253b4f-507f-4562-b695-f386baa7b8c1"
+      ]
+    },
+    "versionCode": 1
+  },
+  "57fe0d8b-08b2-421b-b136-581628a3024e@f9941": {
+    "url": "db://assets/UI/Enemies/生成像素怪物素材 (3).png@f9941",
+    "value": {
+      "depends": [
+        "57fe0d8b-08b2-421b-b136-581628a3024e@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "bfbc790e-f258-4c4f-82f3-fccf12ac9029": {
+    "url": "db://assets/UI/Characters/witch/stand.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1df579a6-41c6-47c5-b85d-1cb3ec487fa3@6c48a": {
+    "url": "db://assets/UI/Characters/soldier/stand.png@6c48a",
+    "value": {
+      "depends": [
+        "1df579a6-41c6-47c5-b85d-1cb3ec487fa3"
+      ]
+    },
+    "versionCode": 1
+  },
+  "e3253b4f-507f-4562-b695-f386baa7b8c1@f9941": {
+    "url": "db://assets/UI/Characters/soldier/battle.png@f9941",
+    "value": {
+      "depends": [
+        "e3253b4f-507f-4562-b695-f386baa7b8c1@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1f759984-5cd5-4981-9db8-ca96a30debd0@6c48a": {
+    "url": "db://assets/UI/Characters/witch/battle.png@6c48a",
+    "value": {
+      "depends": [
+        "1f759984-5cd5-4981-9db8-ca96a30debd0"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1df579a6-41c6-47c5-b85d-1cb3ec487fa3@f9941": {
+    "url": "db://assets/UI/Characters/soldier/stand.png@f9941",
+    "value": {
+      "depends": [
+        "1df579a6-41c6-47c5-b85d-1cb3ec487fa3@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "1f759984-5cd5-4981-9db8-ca96a30debd0@f9941": {
+    "url": "db://assets/UI/Characters/witch/battle.png@f9941",
+    "value": {
+      "depends": [
+        "1f759984-5cd5-4981-9db8-ca96a30debd0@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "bfbc790e-f258-4c4f-82f3-fccf12ac9029@6c48a": {
+    "url": "db://assets/UI/Characters/witch/stand.png@6c48a",
+    "value": {
+      "depends": [
+        "bfbc790e-f258-4c4f-82f3-fccf12ac9029"
+      ]
+    },
+    "versionCode": 1
+  },
+  "bfbc790e-f258-4c4f-82f3-fccf12ac9029@f9941": {
+    "url": "db://assets/UI/Characters/witch/stand.png@f9941",
+    "value": {
+      "depends": [
+        "bfbc790e-f258-4c4f-82f3-fccf12ac9029@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ef629c0c-5762-4eea-8db2-e38d9626a539@f9941": {
+    "url": "db://assets/UI/Enemies/生成像素怪物素材 (4).png@f9941",
+    "value": {
+      "depends": [
+        "ef629c0c-5762-4eea-8db2-e38d9626a539@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "48bc6758-9099-4a02-a96b-0f01040052b9": {
+    "url": "db://assets/Scene/HomePage.scene",
+    "value": {
+      "depends": [
+        "48bc6758-9099-4a02-a96b-0f01040052b9",
+        "62b75f40-ac09-49f6-b903-b45d5d7afcb1@f9941",
+        "defbb61c-8590-4001-8674-84a09b2585b9"
+      ],
+      "dependScripts": [
+        "0fc2b24d-2d46-481c-9a25-5df8c932763c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "80fc95d8-5b09-470a-bba4-8a24d91bfbd6": {
+    "url": "db://assets/Scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "0fc2b24d-2d46-481c-9a25-5df8c932763c": {
+    "url": "db://assets/Script/mainButton.ts",
+    "value": {},
+    "versionCode": 1
   }
 }

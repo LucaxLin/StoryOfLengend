@@ -949,3 +949,245 @@
 2025-12-16 11:50:40-debug: asset-db:worker-effect-data-processing (5ms)
 2025-12-16 11:50:40-debug: asset-db:refresh-all-database (133ms)
 2025-12-16 11:50:40-debug: asset-db-hook-engine-extends-afterRefresh (6ms)
+2025-12-16 11:54:47-debug: refresh db internal success
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\Font\fusion-pixel-12px-monospaced.ttfbackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\Fontbackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Charactersbackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemiesbackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\homePage.pngbackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UIbackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\soldierbackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\witchbackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\bat.pngbackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\boss.pngbackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\skull.pngbackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\生成像素怪物素材 (3).pngbackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\homePage.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\skull.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\homePage.png@f9941background: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\skull.png@f9941background: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\bat.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\bat.png@f9941background: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\生成像素怪物素材 (3).png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\生成像素怪物素材 (4).pngbackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\生成像素怪物素材 (3).png@f9941background: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\boss.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\soldier\battle.pngbackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\boss.png@f9941background: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\soldier\stand.pngbackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\witch\battle.pngbackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\生成像素怪物素材 (4).png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\生成像素怪物素材 (4).png@f9941background: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\soldier\battle.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\soldier\battle.png@f9941background: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\soldier\stand.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\witch\stand.pngbackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\soldier\stand.png@f9941background: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\witch\battle.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\witch\battle.png@f9941background: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\witch\stand.png@6c48abackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\witch\stand.png@f9941background: #aaff85; color: #000;color: #000;
+2025-12-16 11:54:47-debug: refresh db assets success
+2025-12-16 11:54:47-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-12-16 11:54:47-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-12-16 11:54:47-debug: asset-db:refresh-all-database (393ms)
+2025-12-16 11:54:47-debug: asset-db:worker-effect-data-processing (3ms)
+2025-12-16 11:54:47-debug: asset-db-hook-engine-extends-afterRefresh (3ms)
+2025-12-16 11:55:23-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\Scene\HomePage.scenebackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:55:23-debug: start refresh asset from D:\cocos\project\StoryOfLegend\assets\Scene\HomePage.scene...
+2025-12-16 11:55:23-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\Scenebackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:55:23-log: 资源数据库已锁定，资源操作(bound autoRefreshAssetLazy)将会延迟响应，请稍侯
+2025-12-16 11:55:23-debug: refresh asset D:\cocos\project\StoryOfLegend\assets\Scene success
+2025-12-16 11:55:23-debug: refresh db internal success
+2025-12-16 11:55:23-debug: refresh db assets success
+2025-12-16 11:55:23-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-12-16 11:55:23-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-12-16 11:55:23-debug: asset-db:refresh-all-database (160ms)
+2025-12-16 11:55:23-debug: asset-db-hook-engine-extends-afterRefresh (1ms)
+2025-12-16 11:55:47-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\Scene\HomePage.scenebackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:55:47-debug: asset-db:reimport-asset48bc6758-9099-4a02-a96b-0f01040052b9 (9ms)
+2025-12-16 11:56:02-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\Scene\HomePage.scenebackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:56:02-debug: asset-db:reimport-asset48bc6758-9099-4a02-a96b-0f01040052b9 (7ms)
+2025-12-16 11:57:48-debug: refresh db internal success
+2025-12-16 11:57:48-debug: refresh db assets success
+2025-12-16 11:57:48-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-12-16 11:57:48-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-12-16 11:57:48-debug: asset-db:refresh-all-database (105ms)
+2025-12-16 11:57:48-debug: asset-db:worker-effect-data-processing (4ms)
+2025-12-16 11:57:48-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
+2025-12-16 11:57:50-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\Scene\HomePage.scenebackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:57:50-debug: asset-db:reimport-asset48bc6758-9099-4a02-a96b-0f01040052b9 (8ms)
+2025-12-16 11:58:05-debug: refresh db internal success
+2025-12-16 11:58:05-debug: refresh db assets success
+2025-12-16 11:58:05-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-12-16 11:58:05-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-12-16 11:58:05-debug: asset-db:refresh-all-database (102ms)
+2025-12-16 11:58:05-debug: asset-db:worker-effect-data-processing (2ms)
+2025-12-16 11:58:05-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-12-16 11:58:43-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\Scene\HomePage.scenebackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:58:43-debug: asset-db:reimport-asset48bc6758-9099-4a02-a96b-0f01040052b9 (8ms)
+2025-12-16 11:58:45-debug: Query all assets info in project
+2025-12-16 11:58:45-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-12-16 11:58:45-debug: Skip compress image, progress: 0%
+2025-12-16 11:58:45-debug: Init all bundles start..., progress: 0%
+2025-12-16 11:58:45-debug: Num of bundles: 3..., progress: 0%
+2025-12-16 11:58:45-debug: 查询 Asset Bundle start, progress: 0%
+2025-12-16 11:58:45-debug: // ---- build task 查询 Asset Bundle ----
+2025-12-16 11:58:45-debug: Init bundle root assets start..., progress: 0%
+2025-12-16 11:58:45-debug:   Number of all scripts: 6
+2025-12-16 11:58:45-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1,5c601d96-e4c7-4698-991b-7ee674b11079
+2025-12-16 11:58:45-debug:   Number of other assets: 342
+2025-12-16 11:58:45-debug:   Number of all scenes: 1
+2025-12-16 11:58:45-debug: Init bundle root assets success..., progress: 0%
+2025-12-16 11:58:45-debug: // ---- build task 查询 Asset Bundle ---- (7ms)
+2025-12-16 11:58:45-log: run build task 查询 Asset Bundle success in 7 ms√, progress: 5%
+2025-12-16 11:58:45-debug: [Build Memory track]: 查询 Asset Bundle start:232.97MB, end 232.80MB, increase: -169.92KB
+2025-12-16 11:58:45-debug: 查询 Asset Bundle start, progress: 5%
+2025-12-16 11:58:45-debug: // ---- build task 查询 Asset Bundle ----
+2025-12-16 11:58:45-debug: // ---- build task 查询 Asset Bundle ---- (3ms)
+2025-12-16 11:58:45-debug: [Build Memory track]: 查询 Asset Bundle start:232.83MB, end 232.92MB, increase: 92.93KB
+2025-12-16 11:58:45-log: run build task 查询 Asset Bundle success in 3 ms√, progress: 10%
+2025-12-16 11:58:45-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-12-16 11:58:45-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-12-16 11:58:45-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2025-12-16 11:58:45-log: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
+2025-12-16 11:58:45-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:232.95MB, end 232.98MB, increase: 27.49KB
+2025-12-16 11:58:45-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-12-16 11:58:45-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-12-16 11:58:45-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2025-12-16 11:58:45-log: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
+2025-12-16 11:58:45-debug: [Build Memory track]: 填充脚本数据到 settings.json start:233.01MB, end 233.04MB, increase: 26.93KB
+2025-12-16 11:58:45-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-12-16 11:58:45-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-12-16 11:58:45-log: run build task 整理部分构建选项内数据到 settings.json success in 6 ms√, progress: 15%
+2025-12-16 11:58:45-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:233.07MB, end 233.20MB, increase: 137.76KB
+2025-12-16 11:58:45-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (6ms)
+2025-12-16 11:59:00-debug: refresh db internal success
+2025-12-16 11:59:00-debug: refresh db assets success
+2025-12-16 11:59:00-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-12-16 11:59:00-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-12-16 11:59:00-debug: asset-db:refresh-all-database (183ms)
+2025-12-16 11:59:00-debug: asset-db:worker-effect-data-processing (2ms)
+2025-12-16 11:59:00-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
+2025-12-16 11:59:20-debug: start refresh asset from D:\cocos\project\StoryOfLegend\assets\Script\mainButton.ts...
+2025-12-16 11:59:20-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\Script\mainButton.tsbackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:59:20-debug: refresh asset D:\cocos\project\StoryOfLegend\assets\Script success
+2025-12-16 11:59:20-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\Scriptbackground: #aaff85; color: #000;color: #000;
+2025-12-16 11:59:21-debug: Query all assets info in project
+2025-12-16 11:59:21-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-12-16 11:59:21-debug: Skip compress image, progress: 0%
+2025-12-16 11:59:21-debug: Init all bundles start..., progress: 0%
+2025-12-16 11:59:21-debug: Num of bundles: 3..., progress: 0%
+2025-12-16 11:59:21-debug: 查询 Asset Bundle start, progress: 0%
+2025-12-16 11:59:21-debug: // ---- build task 查询 Asset Bundle ----
+2025-12-16 11:59:21-debug: Init bundle root assets start..., progress: 0%
+2025-12-16 11:59:21-debug:   Number of all scenes: 1
+2025-12-16 11:59:21-debug:   Number of other assets: 342
+2025-12-16 11:59:21-debug: Init bundle root assets success..., progress: 0%
+2025-12-16 11:59:21-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1,5c601d96-e4c7-4698-991b-7ee674b11079
+2025-12-16 11:59:21-debug:   Number of all scripts: 7
+2025-12-16 11:59:21-debug: // ---- build task 查询 Asset Bundle ---- (6ms)
+2025-12-16 11:59:21-log: run build task 查询 Asset Bundle success in 6 ms√, progress: 5%
+2025-12-16 11:59:21-debug: [Build Memory track]: 查询 Asset Bundle start:234.92MB, end 234.58MB, increase: -354.38KB
+2025-12-16 11:59:21-debug: 查询 Asset Bundle start, progress: 5%
+2025-12-16 11:59:21-debug: // ---- build task 查询 Asset Bundle ----
+2025-12-16 11:59:21-debug: // ---- build task 查询 Asset Bundle ---- (3ms)
+2025-12-16 11:59:21-log: run build task 查询 Asset Bundle success in 3 ms√, progress: 10%
+2025-12-16 11:59:21-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-12-16 11:59:21-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-12-16 11:59:21-debug: [Build Memory track]: 查询 Asset Bundle start:234.61MB, end 234.69MB, increase: 83.93KB
+2025-12-16 11:59:21-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2025-12-16 11:59:21-log: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
+2025-12-16 11:59:21-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:234.73MB, end 234.75MB, increase: 28.93KB
+2025-12-16 11:59:21-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-12-16 11:59:21-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-12-16 11:59:21-debug: [Build Memory track]: 填充脚本数据到 settings.json start:234.79MB, end 234.82MB, increase: 32.44KB
+2025-12-16 11:59:21-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-12-16 11:59:21-log: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
+2025-12-16 11:59:21-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2025-12-16 11:59:21-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-12-16 11:59:21-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:234.85MB, end 234.99MB, increase: 141.63KB
+2025-12-16 11:59:21-log: run build task 整理部分构建选项内数据到 settings.json success in 7 ms√, progress: 15%
+2025-12-16 11:59:21-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (7ms)
+2025-12-16 12:00:19-debug: refresh db internal success
+2025-12-16 12:00:19-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\Script\mainButton.tsbackground: #aaff85; color: #000;color: #000;
+2025-12-16 12:00:19-debug: refresh db assets success
+2025-12-16 12:00:19-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-12-16 12:00:19-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-12-16 12:00:19-debug: asset-db:worker-effect-data-processing (3ms)
+2025-12-16 12:00:19-debug: asset-db:refresh-all-database (133ms)
+2025-12-16 12:00:19-debug: asset-db-hook-engine-extends-afterRefresh (4ms)
+2025-12-16 12:00:20-debug: Query all assets info in project
+2025-12-16 12:00:20-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-12-16 12:00:20-debug: Skip compress image, progress: 0%
+2025-12-16 12:00:20-debug: Init all bundles start..., progress: 0%
+2025-12-16 12:00:20-debug: // ---- build task 查询 Asset Bundle ----
+2025-12-16 12:00:20-debug: 查询 Asset Bundle start, progress: 0%
+2025-12-16 12:00:20-debug: Num of bundles: 3..., progress: 0%
+2025-12-16 12:00:20-debug: Init bundle root assets start..., progress: 0%
+2025-12-16 12:00:20-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1,5c601d96-e4c7-4698-991b-7ee674b11079
+2025-12-16 12:00:20-debug:   Number of all scripts: 7
+2025-12-16 12:00:20-debug:   Number of other assets: 342
+2025-12-16 12:00:20-debug: Init bundle root assets success..., progress: 0%
+2025-12-16 12:00:20-debug:   Number of all scenes: 1
+2025-12-16 12:00:20-debug: // ---- build task 查询 Asset Bundle ---- (7ms)
+2025-12-16 12:00:20-log: run build task 查询 Asset Bundle success in 7 ms√, progress: 5%
+2025-12-16 12:00:20-debug: [Build Memory track]: 查询 Asset Bundle start:235.80MB, end 235.62MB, increase: -178.22KB
+2025-12-16 12:00:20-debug: // ---- build task 查询 Asset Bundle ----
+2025-12-16 12:00:20-debug: 查询 Asset Bundle start, progress: 5%
+2025-12-16 12:00:20-debug: // ---- build task 查询 Asset Bundle ---- (3ms)
+2025-12-16 12:00:20-log: run build task 查询 Asset Bundle success in 3 ms√, progress: 10%
+2025-12-16 12:00:20-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-12-16 12:00:20-debug: [Build Memory track]: 查询 Asset Bundle start:235.65MB, end 235.74MB, increase: 92.98KB
+2025-12-16 12:00:20-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-12-16 12:00:20-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2025-12-16 12:00:20-log: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
+2025-12-16 12:00:20-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:235.77MB, end 235.80MB, increase: 27.14KB
+2025-12-16 12:00:20-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-12-16 12:00:20-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-12-16 12:00:20-debug: // ---- build task 填充脚本数据到 settings.json ---- (1ms)
+2025-12-16 12:00:20-log: run build task 填充脚本数据到 settings.json success in 1 ms√, progress: 13%
+2025-12-16 12:00:20-debug: [Build Memory track]: 填充脚本数据到 settings.json start:235.83MB, end 235.86MB, increase: 27.01KB
+2025-12-16 12:00:20-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-12-16 12:00:20-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-12-16 12:00:20-log: run build task 整理部分构建选项内数据到 settings.json success in 5 ms√, progress: 15%
+2025-12-16 12:00:20-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (5ms)
+2025-12-16 12:00:20-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:235.89MB, end 236.02MB, increase: 131.62KB
+2025-12-16 12:00:28-debug: %cImport%c: D:\cocos\project\StoryOfLegend\assets\Scene\HomePage.scenebackground: #aaff85; color: #000;color: #000;
+2025-12-16 12:00:28-debug: asset-db:reimport-asset48bc6758-9099-4a02-a96b-0f01040052b9 (8ms)
+2025-12-16 12:00:29-debug: Query all assets info in project
+2025-12-16 12:00:29-debug: init custom config: keepNodeUuid: false, useCache: true
+2025-12-16 12:00:29-debug: Skip compress image, progress: 0%
+2025-12-16 12:00:29-debug: Init all bundles start..., progress: 0%
+2025-12-16 12:00:29-debug: Num of bundles: 3..., progress: 0%
+2025-12-16 12:00:29-debug: // ---- build task 查询 Asset Bundle ----
+2025-12-16 12:00:29-debug: 查询 Asset Bundle start, progress: 0%
+2025-12-16 12:00:29-debug: Init bundle root assets start..., progress: 0%
+2025-12-16 12:00:29-debug: Query preload assets/scripts from cc.config.json: 60f7195c-ec2a-45eb-ba94-8955f60e81d0,1c02ae6f-4492-4915-b8f8-7492a3b1e4cd,810e96e4-e456-4468-9b59-f4e8f39732c0,efe8e2a3-eace-427b-b4f1-cb8a937ec77d,e9aa9a3e-5b2b-4ac7-a2c7-073de2b2b24f,8bbdbcdd-5cd4-4100-b6d5-b7c9625b6107,50f4348b-c883-4e2f-8f11-ce233b859fa1,fda095cb-831d-4601-ad94-846013963de8,f92806d7-1768-443f-afe8-12bcde84d0f0,dd3a144d-ab7f-41f0-82b8-2e43a090d496,f0416e68-0200-4b77-a926-4f9d16e494da,970b0598-bcb0-4714-91fb-2e81440dccd8,bcd64cc6-2dd9-43f6-abbe-66318d332032,d930590d-bb92-4cc8-8bd1-23cd027f9edf,a3cd009f-0ab0-420d-9278-b9fdab939bbc,6a2d0734-bd9e-4ddf-946e-caa52498cb75,c27215d8-6835-4b68-bfbb-bdeac6100c04,b5d6115f-0370-4d7c-aad3-c194cc71cf98,871c3b6c-7379-419d-bda3-794b239ab90d,ff9b0199-ce04-4cfe-86cc-6c719f08d6e4,de1c2107-70c8-4021-8459-6399f24d01c6,cbf30902-517f-40dc-af90-a550bac27cf1,5c601d96-e4c7-4698-991b-7ee674b11079
+2025-12-16 12:00:29-debug:   Number of all scenes: 1
+2025-12-16 12:00:29-debug:   Number of all scripts: 7
+2025-12-16 12:00:29-debug: Init bundle root assets success..., progress: 0%
+2025-12-16 12:00:29-debug:   Number of other assets: 342
+2025-12-16 12:00:29-debug: // ---- build task 查询 Asset Bundle ---- (6ms)
+2025-12-16 12:00:29-log: run build task 查询 Asset Bundle success in 6 ms√, progress: 5%
+2025-12-16 12:00:29-debug: 查询 Asset Bundle start, progress: 5%
+2025-12-16 12:00:29-debug: [Build Memory track]: 查询 Asset Bundle start:236.20MB, end 235.91MB, increase: -301.88KB
+2025-12-16 12:00:29-debug: // ---- build task 查询 Asset Bundle ----
+2025-12-16 12:00:29-debug: // ---- build task 查询 Asset Bundle ---- (4ms)
+2025-12-16 12:00:29-debug: [Build Memory track]: 查询 Asset Bundle start:235.94MB, end 236.02MB, increase: 83.20KB
+2025-12-16 12:00:29-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-12-16 12:00:29-log: run build task 查询 Asset Bundle success in 4 ms√, progress: 10%
+2025-12-16 12:00:29-debug: 整理部分构建选项内数据到 settings.json start, progress: 10%
+2025-12-16 12:00:29-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (1ms)
+2025-12-16 12:00:29-log: run build task 整理部分构建选项内数据到 settings.json success in 1 ms√, progress: 12%
+2025-12-16 12:00:29-debug: 填充脚本数据到 settings.json start, progress: 12%
+2025-12-16 12:00:29-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:236.05MB, end 236.09MB, increase: 37.73KB
+2025-12-16 12:00:29-debug: // ---- build task 填充脚本数据到 settings.json ----
+2025-12-16 12:00:29-debug: // ---- build task 填充脚本数据到 settings.json ---- (2ms)
+2025-12-16 12:00:29-log: run build task 填充脚本数据到 settings.json success in 2 ms√, progress: 13%
+2025-12-16 12:00:29-debug: [Build Memory track]: 填充脚本数据到 settings.json start:236.12MB, end 236.15MB, increase: 26.68KB
+2025-12-16 12:00:29-debug: // ---- build task 整理部分构建选项内数据到 settings.json ----
+2025-12-16 12:00:29-debug: 整理部分构建选项内数据到 settings.json start, progress: 13%
+2025-12-16 12:00:29-debug: // ---- build task 整理部分构建选项内数据到 settings.json ---- (7ms)
+2025-12-16 12:00:29-log: run build task 整理部分构建选项内数据到 settings.json success in 7 ms√, progress: 15%
+2025-12-16 12:00:29-debug: [Build Memory track]: 整理部分构建选项内数据到 settings.json start:236.18MB, end 236.30MB, increase: 126.21KB

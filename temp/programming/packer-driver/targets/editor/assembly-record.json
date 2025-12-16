@@ -535,9 +535,28 @@
             "id": "0ef5d29e8a0525f1c2562643801214c278a3aa9e"
           },
           "messages": []
+        },
+        "__unresolved_6": {
+          "resolved": {
+            "type": "chunk",
+            "id": "83ef08f7304c3f675e22102fe1893dd556d3093f"
+          },
+          "messages": []
         }
       },
-      "timestamp": 1765850424506
+      "timestamp": 1765857620018
+    },
+    "83ef08f7304c3f675e22102fe1893dd556d3093f": {
+      "imports": {
+        "cc": {
+          "resolved": {
+            "type": "chunk",
+            "id": "93ba276ea7b26ffcdc433fab14afc1ed6f05647b"
+          },
+          "messages": []
+        }
+      },
+      "timestamp": 1765857620078
     }
   },
   "entries": {
@@ -548,6 +567,7 @@
     "file:///D:/cocos/editor/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-settings.ts": "6bc0906dfcd786cb4ff536cb5ef9483eaca57643",
     "file:///D:/cocos/editor/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline-types.ts": "e699b026d407188943525ee22ae563923aff0b2d",
     "file:///D:/cocos/editor/Creator/3.8.7/resources/resources/3d/engine/editor/assets/default_renderpipeline/builtin-pipeline.ts": "20e459a0869dfd969a2468c654c5fe36a238c22d",
-    "file:///D:/cocos/editor/Creator/3.8.7/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "0ef5d29e8a0525f1c2562643801214c278a3aa9e"
+    "file:///D:/cocos/editor/Creator/3.8.7/resources/resources/3d/engine/editor/assets/tools/debug-view-runtime-control.ts": "0ef5d29e8a0525f1c2562643801214c278a3aa9e",
+    "file:///D:/cocos/project/StoryOfLegend/assets/Script/mainButton.ts": "83ef08f7304c3f675e22102fe1893dd556d3093f"
   }
 }

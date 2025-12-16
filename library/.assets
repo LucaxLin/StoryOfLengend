@@ -4,7 +4,27 @@
         "paths": [
             "resources",
             "Prefabs",
-            "Script"
+            "Script",
+            "Font",
+            "UI",
+            "Font\\fusion-pixel-12px-monospaced.ttf",
+            "UI\\Characters",
+            "UI\\Enemies",
+            "UI\\homePage.png",
+            "UI\\Characters\\soldier",
+            "UI\\Characters\\witch",
+            "UI\\Enemies\\bat.png",
+            "UI\\Enemies\\boss.png",
+            "UI\\Enemies\\skull.png",
+            "UI\\Enemies\\生成像素怪物素材 (3).png",
+            "UI\\Enemies\\生成像素怪物素材 (4).png",
+            "UI\\Characters\\soldier\\battle.png",
+            "UI\\Characters\\soldier\\stand.png",
+            "UI\\Characters\\witch\\battle.png",
+            "UI\\Characters\\witch\\stand.png",
+            "Scene",
+            "Scene\\HomePage.scene",
+            "Script\\mainButton.ts"
         ]
     }
 }
