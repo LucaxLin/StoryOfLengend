@@ -11,12 +11,7 @@
   },
   "70fe6343-d169-4295-b784-9262a7010cef": {
     "url": "db://assets/Scene/HomePage.scene",
-    "value": {
-      "depends": [
-        "70fe6343-d169-4295-b784-9262a7010cef"
-      ],
-      "dependScripts": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "1abd6595-1a27-4e1a-b4ec-51954ebab9a9": {
@@ -26,9 +21,7 @@
   },
   "7fb2e180-cc11-4ceb-81b9-ea768e08b842": {
     "url": "db://assets/Font/fusion-pixel-12px-monospaced.ttf",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "80aa4f7a-1db5-4540-8ca8-61b03f6a0c07": {
@@ -58,9 +51,7 @@
   },
   "3a526b8e-2f39-47ef-9f92-f6d14ce1acaf": {
     "url": "db://assets/UI/homePage.png",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "87baeefe-acbd-4c24-8dee-49d2219d3c83": {
@@ -85,30 +76,22 @@
   },
   "3d83782e-4200-4253-8201-7dbf565a31b7": {
     "url": "db://assets/UI/Enemies/bat.png",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "93527823-e9a5-4993-bd26-7b33e27bb7b3": {
     "url": "db://assets/UI/Enemies/cow.png",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "c7a6accd-4c1c-48dc-ae5d-85cfbc802a71": {
     "url": "db://assets/UI/Enemies/goblin.png",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "2d0c3282-86e3-4456-bee0-66e901d3b7e8": {
     "url": "db://assets/UI/Characters/Soldier/battle.png",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "2d0c3282-86e3-4456-bee0-66e901d3b7e8@6c48a": {
@@ -167,9 +150,7 @@
   },
   "3d4e0d20-e6e2-4275-be96-7f649f8d1290": {
     "url": "db://assets/UI/Characters/Soldier/stand.png",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "c7a6accd-4c1c-48dc-ae5d-85cfbc802a71@f9941": {
@@ -183,9 +164,7 @@
   },
   "c0e22c96-5877-4861-bab9-3d752cd10a11": {
     "url": "db://assets/UI/Characters/witch/battle.png",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "2d0c3282-86e3-4456-bee0-66e901d3b7e8@f9941": {
@@ -208,9 +187,7 @@
   },
   "743a47b6-adb9-4f48-9022-21053159dbcd": {
     "url": "db://assets/UI/Characters/witch/stand.png",
-    "value": {
-      "depends": []
-    },
+    "value": {},
     "versionCode": 1
   },
   "3a526b8e-2f39-47ef-9f92-f6d14ce1acaf@f9941": {

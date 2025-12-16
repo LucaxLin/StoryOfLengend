@@ -906,3 +906,46 @@
 2025-12-16 11:33:00-debug: asset-db:refresh-all-database (372ms)
 2025-12-16 11:33:00-debug: asset-db-hook-engine-extends-afterRefresh (2ms)
 2025-12-16 11:33:00-debug: asset-db:worker-effect-data-processing (2ms)
+2025-12-16 11:50:40-debug: refresh db internal success
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UIbackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\Scenebackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\Scene\HomePage.scenebackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\Font\fusion-pixel-12px-monospaced.ttfbackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\Fontbackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Charactersbackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemiesbackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\homePage.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\Soldierbackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\witchbackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\bat.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\cow.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\goblin.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\homePage.png@f9941background: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\cow.png@f9941background: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\goblin.png@f9941background: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\bat.png@f9941background: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\homePage.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\cow.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\goblin.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Enemies\bat.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\Soldier\battle.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\Soldier\battle.png@f9941background: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\Soldier\stand.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\witch\battle.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\witch\stand.png@6c48abackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\Soldier\battle.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\Soldier\stand.png@f9941background: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\witch\stand.png@f9941background: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\witch\battle.png@f9941background: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\Soldier\stand.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\witch\stand.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-debug: %cDestroy%c: D:\cocos\project\StoryOfLegend\assets\UI\Characters\witch\battle.pngbackground: #ffb8b8; color: #000;color: #000;
+2025-12-16 11:50:40-error: D:\cocos\project\StoryOfLegend\assets\Prefabs.meta is not exist! will use cache meta.
+2025-12-16 11:50:40-error: D:\cocos\project\StoryOfLegend\assets\resources.meta is not exist! will use cache meta.
+2025-12-16 11:50:40-error: D:\cocos\project\StoryOfLegend\assets\Script.meta is not exist! will use cache meta.
+2025-12-16 11:50:40-debug: refresh db assets success
+2025-12-16 11:50:40-debug: Run asset db hook engine-extends:afterRefresh ...
+2025-12-16 11:50:40-debug: Run asset db hook engine-extends:afterRefresh success!
+2025-12-16 11:50:40-debug: asset-db:worker-effect-data-processing (5ms)
+2025-12-16 11:50:40-debug: asset-db:refresh-all-database (133ms)
+2025-12-16 11:50:40-debug: asset-db-hook-engine-extends-afterRefresh (6ms)
