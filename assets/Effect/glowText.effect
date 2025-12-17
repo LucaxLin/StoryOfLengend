@@ -1,0 +1,124 @@
+// Cocos Creator 3.8 发光文字Shader（完全符合Uniform Block规范）
+CCEffect %{
+  techniques:
+  - passes:
+    - vert: vert
+      frag: frag
+      blendState:
+        targets:
+        - blend: true
+          blendSrc: src_alpha
+          blendDst: one_minus_src_alpha
+          blendSrcAlpha: src_alpha
+          blendDstAlpha: one_minus_src_alpha
+      rasterizerState:
+        cullMode: none
+      properties:
+        mainTexture: { value: white }
+        mainColor: { value: [1, 1, 1, 1], editor: { type: color } }
+        glowColor: { value: [1, 0, 0, 1], editor: { type: color } }
+        glowIntensity: { value: 2.0 }
+        glowRange: { value: 0.1 }
+        glowThreshold: { value: 0.5 }
+}%
+
+// 顶点着色器（使用引擎标准Uniform Block）
+CCProgram vert %{
+  precision highp float;
+  
+  // 引入引擎全局Uniform Block（替代手动声明cc_matViewProj等）
+  #include <cc-global>
+  #include <cc-local>
+
+  // 顶点属性
+  in vec3 a_position;
+  in vec2 a_uv0;
+  in vec4 a_color;
+
+  // 传递给片段着色器
+  out vec2 v_uv0;
+  out vec4 v_color;
+
+  void main () {
+    // 使用引擎内置Uniform Block中的矩阵（cc_matViewProj/cc_matWorld在cc-global中）
+    vec4 pos = cc_matViewProj * cc_matWorld * vec4(a_position, 1.0);
+    gl_Position = pos;
+    
+    // UV和颜色传递（cc_color在cc-global中）
+    v_uv0 = a_uv0;
+    v_color = a_color * cc_color;
+  }
+}%
+
+// 片段着色器（所有Uniform均在Block中声明）
+CCProgram frag %{
+  precision highp float;
+  
+  // 顶点着色器传递的变量
+  in vec2 v_uv0;
+  in vec4 v_color;
+
+  // 1. 引擎全局纹理Uniform Block（mainTexture）
+  #include <cc-sprite-texture>
+
+  // 2. 自定义参数Uniform Block（必须声明在Block中）
+  uniform Constant {
+    vec4 mainColor;       // 主颜色（移入Block）
+    vec4 glowColor;       // 发光颜色
+    float glowIntensity;  // 发光强度
+    float glowRange;      // 发光范围
+    float glowThreshold;  // 发光阈值
+  };
+
+  void main () {
+    // 1. 原生文字纹理采样
+    vec4 texColor = texture(mainTexture, v_uv0);
+    texColor *= v_color * mainColor;
+    
+    float textAlpha = texColor.a;
+    // 跳过完全透明像素
+    if (textAlpha < 0.001) {
+      gl_FragColor = vec4(0.0);
+      return;
+    }
+
+    // 2. 计算发光（高斯模糊）
+    vec2 texSize = vec2(textureSize(mainTexture, 0));
+    vec2 blurStep = glowRange / texSize;
+    float glowAlpha = 0.0;
+    
+    // 3x3高斯权重采样
+    float weights[9] = float[](
+      0.0625, 0.125, 0.0625,
+      0.125,  0.25,  0.125,
+      0.0625, 0.125, 0.0625
+    );
+    vec2 offsets[9] = vec2[](
+      vec2(-blurStep.x, -blurStep.y),
+      vec2(-blurStep.x, 0.0),
+      vec2(-blurStep.x, blurStep.y),
+      vec2(0.0, -blurStep.y),
+      vec2(0.0, 0.0),
+      vec2(0.0, blurStep.y),
+      vec2(blurStep.x, -blurStep.y),
+      vec2(blurStep.x, 0.0),
+      vec2(blurStep.x, blurStep.y)
+    );
+    
+    // 采样周围像素计算发光强度
+    for (int i = 0; i < 9; i++) {
+      vec2 uv = clamp(v_uv0 + offsets[i], vec2(0.0), vec2(1.0));
+      glowAlpha += texture(mainTexture, uv).r * weights[i];
+    }
+    
+    // 阈值过滤 + 强度缩放
+    glowAlpha = smoothstep(glowThreshold, 1.0, glowAlpha) * glowIntensity;
+    glowAlpha *= glowColor.a;
+
+    // 3. 混合文字和发光
+    vec3 finalRGB = texColor.rgb + (glowColor.rgb * glowAlpha);
+    float finalAlpha = max(texColor.a, glowAlpha);
+    
+    gl_FragColor = vec4(finalRGB, finalAlpha);
+  }
+}%
