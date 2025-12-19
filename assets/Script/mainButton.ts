@@ -1,12 +1,14 @@
 import {
   _decorator,
   Button,
+  CCBoolean,
   Color,
   Component,
   game,
   Label,
   math,
   Node,
+  tween,
   UITransform
 } from 'cc'
 const { ccclass, property, executeInEditMode } = _decorator
@@ -16,16 +18,21 @@ const { ccclass, property, executeInEditMode } = _decorator
 export class mainButton extends Component {
   @property({ type: Label, tooltip: '文本标签' })
   public label: Label = null
-  @property({ type: Boolean, tooltip: '禁用按钮' })
+  @property({ tooltip: '禁用按钮' })
   public isDisabled: Boolean = false
+  @property({ tooltip: '默认颜色' })
+  public defaultColor = new Color('#000000')
+  @property({ tooltip: '悬浮颜色' })
+  public hoverColor = new Color('#FF0D57')
+  @property({ tooltip: '禁用颜色' })
+  public disabledColor = new Color('#414141')
+
   protected onLoad(): void {
     this.updateStyle()
     if (this.isDisabled) {
-      console.log(`output->111`, 111)
       this.node.getChildByName('Label')!.getComponent(Label).color =
-        math.color('#414141')
+        this.disabledColor
     }
-    this.node.on(Node.EventType.MOUSE_DOWN, this.onClick, this)
     this.node.on(Node.EventType.MOUSE_ENTER, this.onHover, this)
     this.node.on(Node.EventType.MOUSE_LEAVE, this.onLeave, this)
   }
@@ -49,7 +56,6 @@ export class mainButton extends Component {
       return
     }
     const labelSize = this.label.getComponent(UITransform)!.contentSize
-    console.log(`output->labelSize`, labelSize)
     this.node
       .getComponent(UITransform)!
       .setContentSize(labelSize.width, labelSize.height)
@@ -58,8 +64,7 @@ export class mainButton extends Component {
     if (this.isDisabled) {
       game.canvas.style.cursor = 'not-allowed'
     } else {
-      this.node.getChildByName('Label')!.getComponent(Label).color =
-        math.color('#FF0D57')
+      tween(this.label).to(0.1, { color: this.hoverColor }).start()
       game.canvas.style.cursor = 'pointer'
     }
   }
@@ -72,18 +77,14 @@ export class mainButton extends Component {
     this.updateStyle() // 文本变化后更新样式
   }
   onLeave() {
+    game.canvas.style.cursor = 'default'
     if (this.isDisabled) {
       return
     }
-    this.node.getChildByName('Label')!.getComponent(Label).color =
-      math.color('#000')
-    game.canvas.style.cursor = 'default'
+    tween(this.label).to(0.1, { color: this.defaultColor }).start()
   }
-  onClick() {
-    console.log(`output->1111`, 1111)
-  }
+
   protected onDestroy(): void {
-    this.node.off('click', this.onClick, this)
     this.node.off('hover', this.onHover, this)
     this.node.off('leave', this.onLeave, this)
   }
