@@ -38,7 +38,6 @@ export class CharacterItem extends Component {
       if (!err && frame) {
         this.IconNode.getComponent(Sprite).spriteFrame = frame
       } else {
-        console.log(`load icon error:`, err)
       }
     })
     const HPBar = this.HpBar.getComponent(HPBarController)
