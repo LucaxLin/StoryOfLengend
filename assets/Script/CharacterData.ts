@@ -10,6 +10,7 @@ export interface CharacterData {
   hp: number // 生命值
   energy: number // 能量值
   icon: string // 头像资源路径（resources下）
+  manaIcon: string // 魔法值图标资源路径（resources下，可选）
   desc: string // 描述
   skills: Skill[] // 技能列表
 }
@@ -22,6 +23,7 @@ export const CharacterListData: CharacterData[] = [
     hp: 150,
     energy: 2,
     icon: 'Characters/soldier/stand/spriteFrame',
+    manaIcon: 'Characters/soldier/mana/spriteFrame',
     desc: '高血量高防御，擅长正面团战',
     skills: [ArmorDownSlash, ShieldUp]
   },
@@ -31,6 +33,7 @@ export const CharacterListData: CharacterData[] = [
     hp: 80,
     energy: 3,
     icon: 'Characters/witch/stand/spriteFrame',
+    manaIcon: 'Characters/witch/mana/spriteFrame',
     desc: '高爆发法术伤害，脆皮但输出拉满',
     skills: [FlameBarrage, ShieldUp]
   }

@@ -4,6 +4,11 @@
 
   /* Add your custom configuration here. */
   "compilerOptions": {
+    "target": "ES2017",
+    "lib": [
+      "ES2017", // 引入 ES2017 类型库，识别 Object.entries 等 API
+      "DOM" // 若为浏览器/游戏引擎环境，保留 DOM 库（提供页面/组件相关类型）
+    ],
     "strict": false
   }
 }

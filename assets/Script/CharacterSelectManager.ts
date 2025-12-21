@@ -1,4 +1,15 @@
-import { _decorator, Component, Node, Label, instantiate, Prefab } from 'cc'
+import {
+  _decorator,
+  Component,
+  Node,
+  Label,
+  instantiate,
+  Prefab,
+  resources,
+  SpriteFrame,
+  Sprite,
+  UITransform
+} from 'cc'
 import { CharacterItem } from './CharacterItem'
 import { CharacterData, CharacterListData } from './CharacterData'
 const { ccclass, property } = _decorator
@@ -13,9 +24,6 @@ export class CharacterSelectManager extends Component {
 
   @property(Node)
   public nameLabel: Node = null! // 绑定NameLabel
-
-  @property(Node)
-  public descLabel: Node = null! // 绑定DescLabel
 
   private currentSelectedCharacter: CharacterData | null = null // 当前选中角色
   private characterItems: Map<string, CharacterItem> = new Map() // 存储所有角色项，方便控制蒙版
@@ -60,20 +68,50 @@ export class CharacterSelectManager extends Component {
     // 3. 更新介绍区内容
     this.updateInfoPanel(characterData)
   }
-
+  private ManaNode: Node = null!
+  private SkillsNode: Node = null!
   // 更新介绍区
   updateInfoPanel(characterData: CharacterData) {
     this.nameLabel.active = true
-    this.descLabel.active = true
 
     // 赋值
     this.nameLabel.getComponent(Label).string = characterData.name
-    this.descLabel.getComponent(Label).string = characterData.desc
+    if (!this.ManaNode) {
+      this.ManaNode = new Node('ManaIcon') // 创建ManaIcon节点
+    } else {
+      this.ManaNode.removeAllChildren()
+    }
+    this.ManaNode.parent = this.node.getChildByName('CharacterInfoPanel')
+    resources.load<SpriteFrame>(characterData.manaIcon, (err, frame) => {
+      if (!err && frame) {
+        const StartX =
+          this.nameLabel.getPosition().x +
+          this.nameLabel.getComponent(UITransform).width +
+          50
+        for (let i = 0; i < characterData.energy; i++) {
+          const mana = new Node(`ManaIcon_${i}`)
+          mana.parent = this.ManaNode
+          const sprite = mana.addComponent(Sprite)
+          sprite.spriteFrame = frame
+          mana.getComponent(UITransform).setContentSize(60, 60)
+          mana.setPosition(StartX + i * 70, 194, 0)
+        }
+      } else {
+        console.log('err', err)
+      }
+    })
+    if (!this.SkillsNode) {
+      this.SkillsNode = new Node('SkillIcons') // 创建SkillIcons节点
+    } else {
+      this.SkillsNode.removeAllChildren()
+    }
+    for (let i = 0; i < characterData.skills.length; i++) {
+      const skill = characterData.skills[i]
+      const skillNode = new Node(`${skill.name}`)
+      skillNode.parent = this.SkillsNode
+    }
   }
-
-  // 重置介绍区为默认提示
   resetInfoPanel() {
     this.nameLabel.active = false
-    this.descLabel.active = false
   }
 }
