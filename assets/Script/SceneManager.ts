@@ -40,7 +40,7 @@ export class SceneManager extends Component {
   private async initTransitionNode() {
     return new Promise<void>((resolve, reject) => {
       if (this.transitionNode) return
-      resources.load<Prefab>('transition/SceneTransition', (err, data) => {
+      resources.load<Prefab>('Prefabs/SceneTransition', (err, data) => {
         if (err) {
           reject(`过渡动画预制体加载失败！${err}`)
         } else if (data) {

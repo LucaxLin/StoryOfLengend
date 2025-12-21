@@ -7,7 +7,6 @@ const { ccclass, property, executeInEditMode } = _decorator
 @executeInEditMode
 export class SkillDescription extends Component {
   protected onLoad(): void {
-    console.log(111)
     this.init(ArmorDownSlash)
   }
   init(item: Skill) {

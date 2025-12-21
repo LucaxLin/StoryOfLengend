@@ -22,8 +22,8 @@ export const CharacterListData: CharacterData[] = [
     name: '战士',
     hp: 150,
     energy: 2,
-    icon: 'Characters/soldier/stand/spriteFrame',
-    manaIcon: 'Characters/soldier/mana/spriteFrame',
+    icon: 'UI/Characters/soldier/stand/spriteFrame',
+    manaIcon: 'UI/Characters/soldier/mana/spriteFrame',
     desc: '高血量高防御，擅长正面团战',
     skills: [ArmorDownSlash, ShieldUp]
   },
@@ -32,8 +32,8 @@ export const CharacterListData: CharacterData[] = [
     name: '法师',
     hp: 80,
     energy: 3,
-    icon: 'Characters/witch/stand/spriteFrame',
-    manaIcon: 'Characters/witch/mana/spriteFrame',
+    icon: 'UI/Characters/witch/stand/spriteFrame',
+    manaIcon: 'UI/Characters/witch/mana/spriteFrame',
     desc: '高爆发法术伤害，脆皮但输出拉满',
     skills: [FlameBarrage, ShieldUp]
   }
