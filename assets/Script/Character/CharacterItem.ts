@@ -1,4 +1,4 @@
-import { HPBarController } from './HPBarController'
+import { HPBarController } from './../HPBarController'
 import {
   _decorator,
   Component,

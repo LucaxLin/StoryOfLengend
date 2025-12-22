@@ -12,6 +12,7 @@ import {
 } from 'cc'
 import { CharacterItem } from './CharacterItem'
 import { CharacterData, CharacterListData } from './CharacterData'
+import { SkillManager } from '../Skills/SkillManager'
 const { ccclass, property } = _decorator
 
 @ccclass('CharacterSelectManager')
@@ -21,6 +22,9 @@ export class CharacterSelectManager extends Component {
 
   @property(Node)
   public characterListNode: Node = null! // 绑定CharacterList节点
+
+  @property(Node)
+  public skillListNode: Node = null! // 绑定SkillList节点
 
   @property(Node)
   public nameLabel: Node = null! // 绑定NameLabel
@@ -49,7 +53,6 @@ export class CharacterSelectManager extends Component {
       characterItemNode.name = `CharacterItem_${characterData.id}`
       if (characterItem) {
         characterItem.init(characterData, this.onCharacterSelected.bind(this)) // 绑定选中回调
-
         this.characterItems.set(characterData.id, characterItem) // 存入Map
       }
     })
@@ -102,16 +105,7 @@ export class CharacterSelectManager extends Component {
         console.log('err', err)
       }
     })
-    if (!this.SkillsNode) {
-      this.SkillsNode = new Node('SkillIcons') // 创建SkillIcons节点
-    } else {
-      this.SkillsNode.removeAllChildren()
-    }
-    for (let i = 0; i < characterData.skills.length; i++) {
-      const skill = characterData.skills[i]
-      const skillNode = new Node(`${skill.name}`)
-      skillNode.parent = this.SkillsNode
-    }
+    this.skillListNode.getComponent(SkillManager).init(characterData) // 初始化技能列表
   }
   resetInfoPanel() {
     this.nameLabel.active = false

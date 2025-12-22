@@ -1,7 +1,7 @@
-import { ArmorDownSlash } from './Skills/ArmorDownSlash'
-import { FlameBarrage } from './Skills/FlameBarrage'
-import { ShieldUp } from './Skills/ShieldUp'
-import { Skill } from './Skills/SkillType'
+import { ArmorDownSlash } from './../Skills/ArmorDownSlash'
+import { FlameBarrage } from './../Skills/FlameBarrage'
+import { ShieldUp } from './../Skills/ShieldUp'
+import { Skill } from './../Skills/SkillType'
 
 // 角色数据类型定义
 export interface CharacterData {
