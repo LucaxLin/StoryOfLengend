@@ -1,5 +1,5 @@
 import { _decorator, Component, RichText } from 'cc'
-import { Skill } from './SkillType'
+import { Skill } from './../../Types/Skill';
 import { TEXT_COLOR } from '../Constant'
 const { ccclass, executeInEditMode } = _decorator
 @ccclass('SkillDescription')
