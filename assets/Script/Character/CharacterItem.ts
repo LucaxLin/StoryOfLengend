@@ -42,8 +42,8 @@ export class CharacterItem extends Component {
       }
     })
     const HPBar = this.HpBar.getComponent(HPBarController)
-    HPBar.maxHp = characterData.hp
-    HPBar.updateHPBar(characterData.hp)
+    HPBar.maxHp = characterData.maxHp
+    HPBar.updateHPBar(characterData.maxHp)
 
     // // 默认显示蒙版
     this.setMaskVisible(true)

@@ -39,7 +39,9 @@ export class SceneManager extends Component {
   // 初始化过渡动画节点（加载预制体并设为常驻）
   private async initTransitionNode() {
     return new Promise<void>((resolve, reject) => {
-      if (this.transitionNode) return
+      if (this.transitionNode) {
+        return resolve()
+      }
       resources.load<Prefab>('Prefabs/SceneTransition', (err, data) => {
         if (err) {
           reject(`过渡动画预制体加载失败！${err}`)
@@ -64,12 +66,13 @@ export class SceneManager extends Component {
   public async switchScene(sceneName: string, onLoadComplete?: () => void) {
     // 1. 确保过渡动画初始化完成
     await this.initTransitionNode()
-    if (!this.transitionAnim) return
+    if (!this.transitionAnim) {
+      return
+    }
 
     try {
       // 2. 播放动画（隐藏当前场景）
       this.transitionAnim.play('SceneIn')
-
       // 3. 等待动画结束（避免动画和加载同时执行）
       await new Promise((resolve) =>
         setTimeout(resolve, this.animDuration * 1000)

@@ -36,6 +36,16 @@ export class mainButton extends Component {
     this.node.on(Node.EventType.MOUSE_ENTER, this.onHover, this)
     this.node.on(Node.EventType.MOUSE_LEAVE, this.onLeave, this)
   }
+  public toggleDisable(state: boolean) {
+    this.isDisabled = state
+    if (this.isDisabled) {
+      this.node.getChildByName('Label')!.getComponent(Label).color =
+        this.disabledColor
+    } else {
+      this.node.getChildByName('Label')!.getComponent(Label).color =
+        this.defaultColor
+    }
+  }
   protected onEnable(): void {
     if (this.label) {
       this.label.node.on('size-changed', this.updateStyle, this)

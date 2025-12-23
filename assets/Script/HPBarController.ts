@@ -16,6 +16,7 @@ export class HPBarController extends Component {
   hpBarLabel: Node = null
   @property(Node)
   hpBar: Node = null
+  
   public maxHp: number = 100
   public currentHp: number = 100
 
@@ -32,8 +33,6 @@ export class HPBarController extends Component {
     this.hpBarLabel.getComponent(Label).string =
       this.currentHp + '/' + this.maxHp
     this.updateTween(this.currentHp / this.maxHp)
-
-    // this.node.getComponent(ProgressBar).progress = this.currentHp / this.maxHp
   }
   updateTween(targetProgress: number) {
     // 更新血条动画

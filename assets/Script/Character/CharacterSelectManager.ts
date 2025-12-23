@@ -10,9 +10,13 @@ import {
   Sprite,
   UITransform
 } from 'cc'
+import { CharacterData } from './../../Types/Character'
 import { CharacterItem } from './CharacterItem'
-import { CharacterData, CharacterListData } from './CharacterData'
+import { CharacterListData } from './CharacterData'
 import { SkillManager } from '../Skills/SkillManager'
+import { SceneManager } from '../SceneManager'
+import { createDefaultData } from '../persistData'
+import { persistDataManager } from '../persistDataManager'
 const { ccclass, property } = _decorator
 
 @ccclass('CharacterSelectManager')
@@ -31,6 +35,9 @@ export class CharacterSelectManager extends Component {
 
   @property(Node)
   public ManaNode: Node = null! // 绑定ManaIcon父节点
+
+  @property(Node)
+  public StartAdventureButton: Node = null! // 绑定开始冒险按钮
 
   private currentSelectedCharacter: CharacterData | null = null // 当前选中角色
   private characterItems: Map<string, CharacterItem> = new Map() // 存储所有角色项，方便控制蒙版
@@ -73,6 +80,7 @@ export class CharacterSelectManager extends Component {
 
     // 3. 更新介绍区内容
     this.updateInfoPanel(characterData)
+    this.StartAdventureButton.active = true
   }
   private SkillsNode: Node = null!
   // 更新介绍区
@@ -93,7 +101,7 @@ export class CharacterSelectManager extends Component {
           this.nameLabel.getPosition().x +
           this.nameLabel.getComponent(UITransform).width +
           50
-        for (let i = 0; i < characterData.energy; i++) {
+        for (let i = 0; i < characterData.maxEnergy; i++) {
           const mana = new Node(`ManaIcon_${i}`)
           mana.parent = this.ManaNode
           const sprite = mana.addComponent(Sprite)
@@ -109,5 +117,10 @@ export class CharacterSelectManager extends Component {
   }
   resetInfoPanel() {
     this.nameLabel.active = false
+  }
+  startAdventure() {
+    const persistData = createDefaultData(this.currentSelectedCharacter!)
+    persistDataManager.instance.initPersistData(persistData)
+    SceneManager.instance.switchScene('AdventureMap')
   }
 }

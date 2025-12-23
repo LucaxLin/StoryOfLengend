@@ -8,7 +8,7 @@ import {
   UIOpacity,
   Vec3
 } from 'cc'
-import { Skill } from './SkillType'
+import { Skill } from './../../Types/Skill'
 import { SkillDescription } from './SkillDescription'
 const { ccclass, property } = _decorator
 

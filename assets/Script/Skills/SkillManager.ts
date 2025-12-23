@@ -1,4 +1,4 @@
-import { CharacterData } from './../Character/CharacterData'
+import { CharacterData } from './../../Types/Character'
 import {
   _decorator,
   Component,
