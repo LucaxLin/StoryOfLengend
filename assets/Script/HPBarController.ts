@@ -2,12 +2,14 @@ import {
   _decorator,
   Color,
   Component,
+  director,
   Label,
   Node,
   ProgressBar,
   Sprite,
   tween
 } from 'cc'
+import { PersistData } from '../Types/PersistData'
 const { ccclass, property, executeInEditMode } = _decorator
 
 @ccclass('HPBarController')
@@ -16,11 +18,20 @@ export class HPBarController extends Component {
   hpBarLabel: Node = null
   @property(Node)
   hpBar: Node = null
-  
+
   public maxHp: number = 100
   public currentHp: number = 100
-
-  protected onLoad(): void {}
+  protected onLoad(): void {
+    this.updateHPBar(this.currentHp)
+    director.on('PersistDataUpdate', (data: PersistData) => {
+      console.log('Received PersistDataUpdate event in HPBarController', [
+        data.maxHp,
+        data.curHp
+      ])
+      this.maxHp = data.maxHp
+      this.updateHPBar(data.curHp)
+    })
+  }
   public updateHPBar(num: number) {
     if (num === this.maxHp) {
       this.hpBar.active = false

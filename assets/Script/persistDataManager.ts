@@ -1,6 +1,6 @@
+import { PersistData } from './../Types/PersistData'
 import { _decorator, Component, director, Node, sys } from 'cc'
 const { ccclass, property } = _decorator
-import { PersistData } from './persistData'
 import { Common } from './Common'
 
 const commonFuncs = new Common()
@@ -79,7 +79,10 @@ export class persistDataManager extends Component {
     }
   }
   /** 更新英雄数据（示例：升级、回血等操作） */
-  public updatePersistData(updater: (data: PersistData) => void): void {
+  public updatePersistData(
+    updater: (data: PersistData) => void,
+    saveLocal: boolean = false
+  ): void {
     if (!this._persistData) {
       commonFuncs.changeToScene('PickHero')
       this._persistData = null as PersistData
@@ -87,7 +90,10 @@ export class persistDataManager extends Component {
     // 执行数据更新逻辑
     updater(this._persistData)
     // 同步保存到本地
-    this.savePersistDataToLocal()
+    if (saveLocal) {
+      this.savePersistDataToLocal()
+    }
+    director.emit('PersistDataUpdate', this._persistData)
   }
   /** 重置英雄数据（重新开始游戏时使用） */
   public resetPersistData(): void {

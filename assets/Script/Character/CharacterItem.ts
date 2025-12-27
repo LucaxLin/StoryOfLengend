@@ -1,3 +1,4 @@
+import { CharacterData } from '../../Types/Character'
 import { HPBarController } from './../HPBarController'
 import {
   _decorator,
@@ -8,7 +9,6 @@ import {
   EventTouch,
   SpriteFrame
 } from 'cc'
-import { CharacterData } from './CharacterData'
 const { ccclass, property, requireComponent } = _decorator
 
 @ccclass('CharacterItem')
