@@ -45,6 +45,9 @@ export class HPBarController extends Component {
       this.currentHp + '/' + this.maxHp
     this.updateTween(this.currentHp / this.maxHp)
   }
+  protected onDestroy(): void {
+    director.off('PersistDataUpdate')
+  }
   updateTween(targetProgress: number) {
     // 更新血条动画
     const progressBar = this.node.getComponent(ProgressBar)
