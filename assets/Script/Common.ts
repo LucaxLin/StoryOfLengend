@@ -13,4 +13,14 @@ export class Common extends Component {
     persistDataManager.instance.resetPersistData()
     this.changeToScene('PickHero')
   }
+
+  exitGame() {
+    if (window.electronAPI) {
+      window.electronAPI.quitGame()
+    }
+    // 非 Electron 环境（比如网页测试）
+    else {
+      console.log('非 Electron 环境，仅模拟退出')
+    }
+  }
 }
