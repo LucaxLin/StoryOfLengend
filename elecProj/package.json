@@ -1,16 +1,54 @@
 {
-  "name": "web-desktop",
+  "name": "story-of-legend",
   "version": "1.0.0",
-  "description": "",
+  "description": "story-of-legend",
   "license": "ISC",
-  "author": "",
+  "author": "lucas",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder",
+    "build:portable": "electron-builder --win portable"
+  },
+  "build": {
+    "appId": "com.lucas.story-of-legend",
+    "productName": "story-of-legend",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "index.js",
+      "preload.js",
+      "dist/**/*"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ],
+      "signAndEditExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "perMachine": true,
+      "shortcutName": "story-of-legend"
+    }
   },
   "devDependencies": {
-    "electron": "^39.2.7"
+    "electron": "^39.2.7",
+    "electron-builder": "^26.8.1"
   }
 }
