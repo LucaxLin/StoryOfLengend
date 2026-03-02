@@ -1,6 +1,6 @@
 # 虚拟世界：基因重构 肉鸽游戏开发文档
 
-[demo](https://gitee.com/chenxinlinn/story-of-legend/raw/master/story-of-legend%201.0.0.exe)
+[demo下载](https://gitee.com/chenxinlinn/story-of-legend/raw/master/story-of-legend%201.0.0.exe)
 
 # 一、游戏核心设定
 
